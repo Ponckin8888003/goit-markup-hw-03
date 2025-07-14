@@ -1,0 +1,139 @@
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    text-align: center;
+}
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+}
+.list_title{ /*h3*/
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    color: #434455;
+}
+.small_text{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 0.8;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+}
+.body_medium{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+button{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    cursor: pointer;
+}
+.linkText{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+*{ /* I used "*" instead of "body" because "body" does not inherit all styles to elements unlike "*" */
+    font-family: "Roboto", sans-serif;
+    color: #2E2F42;
+    font-style: normal;
+}
+body{
+    background-color: #FFFFFF;
+    color: #434455;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.section_title{
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize
+}
+
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo span{
+    color: #2e2f42;
+}
+header ul li a:hover{
+    color: #404bbf;
+}
+header ul li a:focus{
+    color: #404bbf;
+}
+.contacts a{
+    color: #434455;
+}
+.hero_image_section{
+    background-color: #2E2F42;
+}
+.hero_title{
+    color: #FFFFFF;
+    line-height: 1.07;
+}
+.hero_button{
+    background-color: #4D5AE5;
+    border: none;
+    color: #FFFFFF;
+}
+.hero_button:hover{
+    background-color: #404BBF;
+}
+.hero_button:focus{
+    background-color: #404BBF;
+}
+.section_title_01{
+    visibility: hidden;
+    line-height: 1.2;
+}
+.team_section{
+    background-color: #F4F4FD;
+}
+.team_card{
+    background-color: #FFFFFF;
+}
+.our_portfolio ul li{
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+.footer{
+    background-color: #2E2F42;
+}
+.footer .body{
+    color: #F4F4FD;
+}
