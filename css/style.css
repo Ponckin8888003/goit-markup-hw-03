@@ -1,3 +1,4 @@
+
 h1{
     font-family: "Roboto", sans-serif;
     font-size: 56px;
@@ -68,7 +69,9 @@ body{
 }
 ul{
     list-style-type: none;
+  
 }
+
 a{
     text-decoration: none;
 }
@@ -136,4 +139,65 @@ header ul li a:focus{
 }
 .footer .body{
     color: #F4F4FD;
+}
+
+header, nav, nav ul, .contacts ul {
+    display: flex;
+}
+header{
+    max-width: 1158px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+header nav{
+    align-items: center;
+}
+header nav ul, .contacts ul{
+    gap: 2.5rem;
+}
+.hero_image_section{
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section_01{
+    max-width: 1128px;
+    margin: 0 auto;
+}
+.section_01 ul{
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+}
+.team_section{
+    min-height: 732px;
+}
+.team_section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.team_section_list{
+    display: flex;
+    max-width: 1128px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0;
+}
+.team_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.our_portfolio ul{
+    display: flex;
+    max-width: 1128px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 0;
+    flex-wrap: wrap;
+    row-gap: 3rem;
 }
