@@ -184,18 +184,30 @@ header .container{
     cursor: pointer;
     color: #FFFFFF;
 }
-.section_01{
+.section_one {
     padding: 120px 0;
 }
-.section_01_list{
+.section_one_list {
     display: flex;
     gap: 24px;
 }
-.banner_section_items{
+.banner_item {
     width: calc((100% - 72px) / 4);
 }
-.section_01_list_items .list_title{
+.section_one_item .list_title {
     margin-bottom: 8px;
+}
+.visually_hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .team_section{
     padding: 120px 0;
@@ -239,7 +251,7 @@ header .container{
     column-gap: 24px; 
     row-gap: 48px;
 }
-.portfolio_list_items{
+.portfolio_list_item {
     width: calc((100% - 48px) / 3);
 }
 .portfolio_list_description_container{
