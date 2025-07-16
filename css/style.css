@@ -194,6 +194,9 @@ header .container{
 .banner_item {
     width: calc((100% - 72px) / 4);
 }
+.section_one_item {
+    flex-basis: calc((100% - 72px) / 4);
+}
 .section_one_item .list_title {
     margin-bottom: 8px;
 }
